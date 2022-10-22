@@ -1,0 +1,54 @@
+<div >
+<main role="main" class="flex-shrink-0" >
+  <div class="container">
+  <div class="container" style="padding-top: 80px; margin-bottom:80px;">
+    <div class="card-header text-info mt-4">
+      <h4>Home</h4>
+    </div>
+  </div>
+
+  <div class="container" style="height: 180px; background-color: rgb(225, 228, 228); margin-bottom: 120px;">
+    <h5 class="mb-4">Select Options</h5>
+    <div class="row text-white">
+      <div class="col rounded mr-2 ml-2" style="background-color: #27C24C; cursor: pointer;" routerLink="patient">
+        <div class="row" style="border-radius: 10px; height:80px;">
+          <div class="col-4 text-center rounded-left" style="background-color: #1E983B;">
+            <img class="" style="margin-top:16px; height:60px; width:60px;" src="assets/images/avatar.png" />
+          </div>
+          <div class="col">
+            <h2>{{patients.length}}</h2>
+            <span>PATIENTS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col rounded mr-2 ml-2" style="background-color: #474d68; cursor: pointer;" routerLink="doctor">
+        <div class="row" style="border-radius: 10px; height:80px;">
+          <div class="col-4 text-center rounded-left" style="background-color: #5a5a74;">
+            <img class="" style="margin-top:17px; height:60px; width:60px;" src="assets/images/mdoc.png" />
+          </div>
+          <div class="col">
+            <h2>{{doctors.length}}</h2>
+            <div>DOCTORS</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col rounded mr-2 ml-2" style="background-color: #2F80E7; cursor: pointer;" routerLink="appointment">
+        <div class="row" style="border-radius: 17px; height:80px;">
+          <div class="col-4 text-center rounded-left" style="background-color: #5D9CEC;">
+            <img class="" style="margin-top:17px; height:60px; width:60px;" src="assets/images/apt.png" />
+          </div>
+          <div class="col">
+            <h2>{{appointments.length}}</h2>
+            <div>APPOINTMENTS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+</main>
+</div>
